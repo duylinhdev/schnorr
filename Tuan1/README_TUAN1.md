@@ -1,0 +1,30 @@
+# BÁO CÁO CÔNG VIỆC THỰC HIỆN NHÓM
+
+| | |
+|---|---|
+| **Tên lớp** | 20252IT607003 |
+| **Khóa** | 18 |
+| **Tên nhóm** | 02 |
+| **Tên chủ đề** | Chữ ký số Schnorr và ứng dụng trong xác thực dữ liệu (Sử dụng ngôn ngữ Java, C#) |
+
+---
+
+## Họ và Tên Thành Viên
+
+| # | Họ và Tên | MSSV |
+|---|-----------|------|
+| 1 | Nguyễn Quang Hữu | 2023602008 |
+| 2 | Vũ Quang Huy | 2023603102 |
+| 3 | Lê Duy Linh | 2023604298 |
+| 4 | Bùi Huy Thái | 2023603888 |
+
+---
+
+## Tuần 1
+
+| STT | Người thực hiện | Nội dung công việc | Kết quả đạt được |
+|:---:|-----------------|-------------------|------------------|
+| 1 | Nguyễn Quang Hữu | Tìm hiểu tổng quan về an ninh mạng: khái niệm, tầm quan trọng, các loại tấn công và cách thức hoạt động | Hoàn thành nội dung, nắm vững các khái niệm cơ bản về an ninh mạng |
+| 2 | Vũ Quang Huy | Nghiên cứu các kiến thức cơ sở toán học (lý thuyết số, logarit rời rạc) và thuật toán liên quan đến Schnorr | Hiểu được nền tảng toán học của thuật toán Schnorr, nắm vững các phép toán modulo và lũy thừa modulo |
+| 3 | Lê Duy Linh | Tìm hiểu kiến thức về lập trình (Java, C#, xử lý số lớn) và hệ thống an ninh mạng liên quan đến chữ ký số | Nắm vững cú pháp và thư viện mật mã trong Java và C#, hiểu cấu trúc PKI và quy trình chữ ký số |
+| 4 | Bùi Huy Thái | Xây dựng nội dung nghiên cứu: lý do chọn đề tài, các nội dung nghiên cứu chính, tổng hợp tài liệu | Hoàn thành phần giới thiệu đề tài, xác định rõ các nội dung sẽ triển khai trong các tuần tiếp theo |
