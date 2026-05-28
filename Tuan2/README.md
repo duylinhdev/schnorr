@@ -23,7 +23,7 @@
 | 2    | Nguyễn Quang Hữu | Nghiên cứu hệ mật Schnorr: giới thiệu, thuật toán, độ an toàn                                                               | Hoàn thành 100%  |                                    |
 |      | Vũ Quang Huy     | Phân tích ưu nhược điểm của Schnorr, ứng dụng thực tiễn                                                                     | Hoàn thành 100%  |                                    |
 |      | Lê Duy Linh      | Nghiên cứu sâu mã khóa công khai (ý tưởng Diffie-Hellman, thành phần, độ an toàn, ứng dụng). Nghiên cứu tổng quan chữ ký số | Hoàn thành 100%  |                                    |
-|      | Bùi Huy Thái     | Phân tích ứng dụng và cách sử dụng chữ ký số trong thực tế.                                                                 |                  |                                    |
+|      | Bùi Huy Thái     | Phân tích ứng dụng và cách sử dụng chữ ký số trong thực tế.                                                                 | Hoàn thành 100%  |                                    |
 | 3    | Nguyễn Quang Hữu | Cài đặt thuật toán Schnorr bằng C#                                                                                          |                  |                                    |
 |      | Vũ Quang Huy     | Thiết kế giao diện C# (WinForms/WPF)                                                                                        |                  |                                    |
 |      | Lê Duy Linh      | Thiết kế kịch bản chương trình tổng thể. Cài đặt thuật toán Schnorr bằng Java.                                              |                  |                                    |
