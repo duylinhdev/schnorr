@@ -34,7 +34,7 @@ Bùi Huy Thái &nbsp;&nbsp;&nbsp; MSV: 2023603888
 | 5    | Cả nhóm          | Tổng hợp, chỉnh sửa báo cáo hoàn chỉnh.                                                                                     |                  |                                    |
 
 <div align="right">
-Ngày …. tháng …. năm 2025  <br>
+Ngày …. tháng …. năm 2026  <br>
 <b>XÁC NHẬN CỦA GIẢNG VIÊN</b><br>
 (Ký, ghi rõ họ tên)<br>
 Phạm Văn Hiệp
@@ -122,7 +122,7 @@ Vũ Quang Huy &nbsp;&nbsp;&nbsp; MSV: 2023603102
 | 5    | Cả nhóm          | Tổng hợp, chỉnh sửa báo cáo hoàn chỉnh.                                                                                                                                   |                  | Căn chỉnh định dạng báo cáo, rà soát, bổ sung nội dung. Kiểm tra lại chương trình                                                           |
 
 <div align="right">
-Ngày …. tháng …. năm 2025  <br>
+Ngày …. tháng …. năm 2026  <br>
 <b>XÁC NHẬN CỦA GIẢNG VIÊN</b><br>
 (Ký, ghi rõ họ tên)<br>
 Phạm Văn Hiệp

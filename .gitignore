@@ -92,19 +92,8 @@ build/
 *.db
 *.sql
 
-# Ignore PDF and Office files
-*.pdf
-*.docx
-*.xlsx
-*.pptx
 
-# Ignore images
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.webp
+
 
 # Ignore binaries
 *.bin
