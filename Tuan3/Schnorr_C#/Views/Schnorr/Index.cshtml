@@ -1,0 +1,174 @@
+﻿@{
+    ViewData["Title"] = "Schnorr Digital Signature";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schnorr Sign</title>
+    <link rel="stylesheet" href="~/css/schnorr.css" />
+</head>
+<body>
+
+<input type="hidden" id="Y_hidden" value="0" />
+
+<div class="layout">
+    <main class="main-content">
+        <h1 class="page-title">Bảng điều khiển Chữ ký Schnorr</h1>
+        <p class="page-sub">Mô phỏng quy trình mật mã học chính xác cho thuật toán chữ ký số Schnorr.</p>
+
+        <div class="grid-2">
+
+            <!-- BƯỚC 1: Tham số hệ thống -->
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <span class="step-badge">BƯỚC 01</span>
+                        <div class="card-title">Tham số Hệ thống</div>
+                    </div>
+                    <span class="card-icon">⚙</span>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>SỐ NGUYÊN TỐ P</label>
+                        <input type="number" id="P" value="48731" />
+                    </div>
+                    <div class="form-group">
+                        <label>THỪA SỐ Q (P-1)</label>
+                        <input type="number" id="Q" value="443" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>PHẦN TỬ SINH G</label>
+                    <input type="number" id="G" value="11444" />
+                </div>
+                <div class="form-group">
+                    <label>HÀM BĂM H</label>
+                    <select id="HashAlg">
+                        <option value="SHA-256">SHA-256</option>
+                        <option value="SHA-512">SHA-512</option>
+                    </select>
+                </div>
+                <div class="condition-box">Điều kiện: g^q ≡ 1 (mod p)</div>
+            </div>
+
+            <!-- BƯỚC 2: Phát sinh khóa -->
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <span class="step-badge">BƯỚC 02</span>
+                        <div class="card-title">Phát sinh Khóa</div>
+                    </div>
+                    <span class="card-icon">🔑</span>
+                </div>
+                <div class="form-group">
+                    <label>KHÓA BÍ MẬT (X)</label>
+                    <input type="number" id="X" value="157" />
+                    <span class="input-hint">1 ≤ x ≤ q-1</span>
+                </div>
+                <button class="btn-primary" onclick="generateKey()">TÍNH TOÁN KHÓA CÔNG KHAI</button>
+                <div class="form-group mt-10">
+                    <label>KHÓA CÔNG KHAI (Y) 🔒</label>
+                    <div class="result-display" id="publicKeyDisplay">y = g^x mod p</div>
+                </div>
+                <div class="result-formula" id="publicKeyFormula"></div>
+            </div>
+
+        </div>
+
+        <div class="grid-2">
+
+            <!-- BƯỚC 3: Ký thông điệp -->
+            <div class="card card-active">
+                <div class="card-header">
+                    <div>
+                        <span class="step-badge step-active">BƯỚC 03</span>
+                        <div class="card-title">Ký thông điệp</div>
+                    </div>
+                    <span class="card-icon">✍</span>
+                </div>
+                <div class="form-group">
+                    <label>THÔNG ĐIỆP (M)</label>
+                    <input type="text" id="Message" value="Hello Cryptography" />
+                </div>
+                <div class="form-group">
+                    <label>SỐ NGẪU NHIÊN (K) &nbsp;<span class="input-hint">1 ≤ k ≤ q-1</span></label>
+                    <input type="number" id="K" value="314" />
+                </div>
+                <div class="form-row">
+                    <div class="mini-result">
+                        <div class="mini-label">CAM KẾT R = g^k mod p</div>
+                        <div id="R_val" class="mini-value">—</div>
+                    </div>
+                    <div class="mini-result">
+                        <div class="mini-label">BĂM E = H(r ‖ M)</div>
+                        <div id="E_val" class="mini-value">—</div>
+                    </div>
+                </div>
+                <button class="btn-primary" onclick="signMessage()">TẠO CHỮ KÝ SỐ</button>
+                <div class="sig-box" id="signatureBox">
+                    <div class="sig-label">CHỮ KÝ (E, S) — s = (k − x·e) mod q</div>
+                    <div class="sig-row">
+                        <span class="sig-key">e</span>
+                        <span class="sig-val" id="sig_e">—</span>
+                    </div>
+                    <div class="sig-row">
+                        <span class="sig-key">s</span>
+                        <span class="sig-val" id="sig_s">—</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BƯỚC 4: Xác minh chữ ký -->
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <span class="step-badge">BƯỚC 04</span>
+                        <div class="card-title">Xác minh Chữ ký</div>
+                    </div>
+                    <span class="card-icon">🛡</span>
+                </div>
+                <div class="form-group">
+                    <label>XÁC MINH THÔNG ĐIỆP</label>
+                    <input type="text" id="VerifyMsg" />
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>NHẬP E</label>
+                        <input type="number" id="VerifyE" />
+                    </div>
+                    <div class="form-group">
+                        <label>NHẬP S</label>
+                        <input type="number" id="VerifyS" />
+                    </div>
+                </div>
+                <!-- ✅ Công thức đúng: r' = g^s · y^e mod p (KHÔNG có dấu âm) -->
+                <div class="verify-row">
+                    <span>Tính toán r' = g<sup>s</sup> · y<sup>e</sup> mod p</span>
+                    <span class="verify-val" id="rPrime_val">—</span>
+                </div>
+                <div class="verify-row">
+                    <span>Tính toán e' = H(r' ‖ M)</span>
+                    <span class="verify-val" id="ePrime_val">—</span>
+                </div>
+                <button class="btn-primary" onclick="verifySignature()">KIỂM TRA TÍNH HỢP LỆ</button>
+                <div id="verifyResult"></div>
+            </div>
+
+        </div>
+    </main>
+
+</div>
+
+<div class="status-bar">
+    <span>SHA-256 ENABLED</span>
+    <span>ELLIPTIC CURVE COMPATIBLE</span>
+    <span>ENTROPY: 256-BIT</span>
+    <span class="status-right">© 2024 SCHNORR PROTOCOL LAB</span>
+</div>
+
+<script src="~/js/schnorr.js"></script>
+</body>
+</html>
