@@ -1,0 +1,41 @@
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.userprefs
+*.sln.user
+*.suo
+
+# Build output
+dist/
+build/
+
+# Dependencies
+packages/
+node_modules/
+
+# Runtime
+*.log
+*.pdb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
