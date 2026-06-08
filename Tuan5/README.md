@@ -1,0 +1,118 @@
+<p align="center">
+  <b>BÁO CÁO HỌC TẬP CÁ NHÂN/ NHÓM</b>
+</p>
+
+**Chủ đề:** Chữ ký số Schnorr và ứng dụng trong xác thực dữ liệu (Java, C#)
+
+**Tên lớp:** 20252IT607003 &nbsp;&nbsp;&nbsp;&nbsp; **Khóa:** 18  
+**Họ và tên sinh viên:**
+
+- Nguyễn Quang Hữu &nbsp;&nbsp;&nbsp;&nbsp; MSV: 2023602008
+- Vũ Quang Huy &nbsp;&nbsp;&nbsp;&nbsp; MSV: 2023603102
+- Lê Duy Linh &nbsp;&nbsp;&nbsp;&nbsp; MSV: 2023604298
+- Bùi Huy Thái &nbsp;&nbsp;&nbsp;&nbsp; MSV: 2023603888  
+  **Tên nhóm:** Nhóm 02  
+  **Tên chủ đề:** Chữ ký số Schnorr và ứng dụng trong xác thực dữ liệu (Sử dụng ngôn ngữ Java, C#)
+
+| Tuần | Người thực hiện  | Nội dung công việc                                                                                                          | Kết quả đạt được | Kiến nghị với giảng viên hướng dẫn |
+| ---- | ---------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------- | ---------------------------------- |
+| 1    | Nguyễn Quang Hữu | Kiến thức cơ sở về toán học, lý thuyết số phục vụ mật mã học                                                                | Hoàn thành 100%  |                                    |
+|      | Vũ Quang Huy     | Kiến thức cơ sở về thuật toán, cấu trúc dữ liệu và ngôn ngữ lập trình                                                       | Hoàn thành 100%  |                                    |
+|      | Lê Duy Linh      | Tổng quan về an ninh mạng và tầm quan trọng. Nghiên cứu nền tảng về mã hóa công khai và chữ ký số                           | Hoàn thành 100%  |                                    |
+|      | Bùi Huy Thái     | Tổng quan về các loại tấn công an ninh mạng và kiến thức bổ trợ.                                                            | Hoàn thành 100%  |                                    |
+| 2    | Nguyễn Quang Hữu | Nghiên cứu hệ mật Schnorr: giới thiệu, thuật toán, độ an toàn                                                               | Hoàn thành 100%  |                                    |
+|      | Vũ Quang Huy     | Phân tích ưu nhược điểm của Schnorr, ứng dụng thực tiễn                                                                     | Hoàn thành 100%  |                                    |
+|      | Lê Duy Linh      | Nghiên cứu sâu mã khóa công khai (ý tưởng Diffie-Hellman, thành phần, độ an toàn, ứng dụng). Nghiên cứu tổng quan chữ ký số | Hoàn thành 100%  |                                    |
+|      | Bùi Huy Thái     | Phân tích ứng dụng và cách sử dụng chữ ký số trong thực tế.                                                                 | Hoàn thành 100%  |                                    |
+| 3    | Nguyễn Quang Hữu | Cài đặt thuật toán Schnorr bằng C#                                                                                          | Hoàn thành 100%  |                                    |
+|      | Vũ Quang Huy     | Thiết kế giao diện C# (WinForms/WPF)                                                                                        | Hoàn thành 100%  |                                    |
+|      | Lê Duy Linh      | Thiết kế kịch bản chương trình tổng thể. Cài đặt thuật toán Schnorr bằng Java.                                              | Hoàn thành 100%  |                                    |
+|      | Bùi Huy Thái     | Cài đặt giao diện chính (Java Swing/JavaFX)                                                                                 | Hoàn thành 100%  |                                    |
+| 4    | Nguyễn Quang Hữu | Kiểm thử chương trình C#. Viết phần giới thiệu ngôn ngữ C# trong báo cáo                                                    | Hoàn thành 100%  |                                    |
+|      | Vũ Quang Huy     | Kiểm thử chương trình C#. Hỗ trợ tổng hợp tài liệu tham khảo                                                                | Hoàn thành 100%  |                                    |
+|      | Lê Duy Linh      | Kiểm thử toàn bộ chương trình Java. Viết phần giới thiệu ngôn ngữ Java trong báo cáo. Tổng hợp, chỉnh sửa nội dung báo cáo  | Hoàn thành 100%  |                                    |
+|      | Bùi Huy Thái     | Kiểm thử chương trình Java. Hỗ trợ chỉnh sửa nội dung báo cáo                                                               | Hoàn thành 100%  |                                    |
+| 5    | Cả nhóm          | Tổng hợp, chỉnh sửa báo cáo hoàn chỉnh.                                                                                     |                  | Hoàn thành 100%                    |
+
+<p align="right">
+  Ngày ... tháng ... năm 2026<br>
+  <b>XÁC NHẬN CỦA GIẢNG VIÊN</b><br>
+  (Ký, ghi rõ họ tên)<br><br>
+  <b>Phạm Văn Hiệp</b>
+</p>
+
+---
+
+<p align="center">
+  <b>PHIẾU HỌC TẬP CÁ NHÂN/NHÓM</b>
+</p>
+
+**I. Thông tin chung**
+
+1. Tên lớp: 20252IT607003 &nbsp;&nbsp;&nbsp;&nbsp; Khóa: 18
+2. Họ và tên thành viên:
+   - Nguyễn Quang Hữu &nbsp;&nbsp;&nbsp;&nbsp; MSV: 2023602008
+   - Vũ Quang Huy &nbsp;&nbsp;&nbsp;&nbsp; MSV: 2023603102
+   - Lê Duy Linh &nbsp;&nbsp;&nbsp;&nbsp; MSV: 2023604298
+   - Bùi Huy Thái &nbsp;&nbsp;&nbsp;&nbsp; MSV: 2023603888
+3. Tên nhóm: Nhóm 02
+
+**II. Nội dung học tập**
+
+- Tên chủ đề: Chữ ký số Schnorr và ứng dụng trong xác thực dữ liệu (Sử dụng ngôn ngữ Java, C#)
+- Hoạt động của sinh viên:
+  - Hoạt động 1: Tìm tài liệu, nghiên cứu lý thuyết về an toàn bảo mật thông tin, mã khóa công khai và chữ ký số Schnorr.
+  - Hoạt động 2: Cài đặt thuật toán Schnorr, xây dựng chương trình mô phỏng hoạt động ký số và xác thực dữ liệu bằng Java và C#.
+  - Hoạt động 3: Thiết kế giao diện chương trình minh họa và viết báo cáo tổng kết.
+- Sản phẩm nghiên cứu:
+  - Báo cáo thực nghiệm
+  - Chương trình demo bằng Java và C#
+
+**III. Nhiệm vụ học tập**
+
+1. Hoàn thành Bài tập lớn theo đúng thời gian quy định (từ ngày 11/5/2026 đến ngày 14/6/2026).
+2. Báo cáo sản phẩm nghiên cứu theo chủ đề được giao trước giảng viên và những sinh viên khác.
+
+**IV. Học liệu thực hiện Bài tập lớn**
+
+1. Tài liệu học tập:
+   - [1]. Bùi Doãn Khanh, Nguyễn Đình Thức, Mã hóa thông tin – Lý thuyết và ứng dụng, NXB Lao động – Xã hội, 2011.
+   - [2]. Tài liệu hướng dẫn môn học từ giảng viên.
+   - [3]. Tài liệu tham khảo từ NIST và các giáo trình mật mã học hiện đại.
+2. Phương tiện, nguyên liệu thực hiện Bài tập lớn:
+   - Máy tính cá nhân, môi trường lập trình Java (JDK, IntelliJ IDEA, Eclipse), C# (Visual Studio, .NET Framework), thư viện hỗ trợ mã hóa (BouncyCastle, System.Security.Cryptography).
+
+---
+
+<p align="center">
+  <b>BÁO CÁO HỌC TẬP CÁ NHÂN/NHÓM</b>
+</p>
+
+| Tuần | Người thực hiện  | Nội dung công việc                                                                                                                                                        | Kết quả đạt được | Phương pháp thực hiện                                                 |
+| ---- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------------------------------------------------------- |
+| 1    | Nguyễn Quang Hữu | Kiến thức cơ sở về toán học, lý thuyết số phục vụ mật mã học                                                                                                              | Hoàn thành 100%  | Nghiên cứu lý thuyết, giáo trình, internet                            |
+|      | Vũ Quang Huy     | Kiến thức cơ sở về thuật toán, cấu trúc dữ liệu và ngôn ngữ lập trình                                                                                                     | Hoàn thành 100%  | Nghiên cứu lý thuyết, giáo trình, internet                            |
+|      | Lê Duy Linh      | Tổng quan về an ninh mạng và tầm quan trọng. Nghiên cứu nền tảng về mã hóa công khai và chữ ký số                                                                         | Hoàn thành 100%  | Nghiên cứu lý thuyết, giáo trình, internet                            |
+|      | Bùi Huy Thái     | Tổng quan về các loại tấn công an ninh mạng và kiến thức bổ trợ                                                                                                           | Hoàn thành 100%  | Nghiên cứu lý thuyết, giáo trình, internet                            |
+| 2    | Nguyễn Quang Hữu | Nghiên cứu hệ mật Schnorr: giới thiệu, thuật toán, độ an toàn                                                                                                             | Hoàn thành 100%  | Nghiên cứu lý thuyết, giáo trình, internet                            |
+|      | Vũ Quang Huy     | Phân tích ưu nhược điểm của Schnorr, ứng dụng thực tiễn                                                                                                                   | Hoàn thành 100%  | Nghiên cứu lý thuyết, giáo trình, internet                            |
+|      | Lê Duy Linh      | Nghiên cứu sâu mã khóa công khai (ý tưởng Diffie-Hellman, thành phần, độ an toàn, ứng dụng). Nghiên cứu tổng quan chữ ký số: khái niệm, pháp lí, vai trò, sơ đồ, kỹ thuật | Hoàn thành 100%  | Nghiên cứu lý thuyết, giáo trình, internet                            |
+|      | Bùi Huy Thái     | Phân tích ứng dụng và cách sử dụng chữ ký số trong thực tế.                                                                                                               | Hoàn thành 100%  | Nghiên cứu lý thuyết, giáo trình, internet                            |
+| 3    | Nguyễn Quang Hữu | Cài đặt thuật toán Schnorr bằng C#.                                                                                                                                       | Hoàn thành 100%  | Nghiên cứu thực nghiệm, lập trình                                     |
+|      | Vũ Quang Huy     | Thiết kế giao diện C# (WinForms/WPF)                                                                                                                                      | Hoàn thành 100%  | Nghiên cứu thực nghiệm, lập trình                                     |
+|      | Lê Duy Linh      | Thiết kế kịch bản chương trình tổng thể. Cài đặt thuật toán Schnorr bằng Java.                                                                                            | Hoàn thành 100%  | Nghiên cứu thực nghiệm, lập trình                                     |
+|      | Bùi Huy Thái     | Cài đặt giao diện chính (Java Swing/JavaFX)                                                                                                                               | Hoàn thành 100%  | Nghiên cứu thực nghiệm, lập trình                                     |
+| 4    | Nguyễn Quang Hữu | Kiểm thử chương trình C#. Viết phần giới thiệu ngôn ngữ C# trong báo cáo                                                                                                  | Hoàn thành 100%  | Sử dụng IntelliJ, Eclipse, Visual Studio để kiểm thử                  |
+|      | Vũ Quang Huy     | Kiểm thử chương trình C#. Hỗ trợ tổng hợp tài liệu tham khảo                                                                                                              | Hoàn thành 100%  | Sử dụng IntelliJ, Eclipse, Visual Studio để kiểm thử                  |
+|      | Lê Duy Linh      | Kiểm thử toàn bộ chương trình Java. Viết phần giới thiệu ngôn ngữ Java trong báo cáo. Tổng hợp, chỉnh sửa nội dung báo cáo                                                | Hoàn thành 100%  | Sử dụng IntelliJ, Eclipse, Visual Studio để kiểm thử                  |
+|      | Bùi Huy Thái     | Kiểm thử chương trình Java. Hỗ trợ chỉnh sửa nội dung báo cáo                                                                                                             | Hoàn thành 100%  | Sử dụng IntelliJ, Eclipse, Visual Studio để kiểm thử                  |
+| 5    | Cả nhóm          | Tổng hợp, chỉnh sửa báo cáo hoàn chỉnh.                                                                                                                                   | Hoàn thành 100%  | Căn chỉnh định dạng, rà soát, bổ sung nội dung, kiểm tra chương trình |
+
+---
+
+<p align="right">
+  Ngày ... tháng ... năm 2026<br>
+  <b>XÁC NHẬN CỦA GIẢNG VIÊN</b><br>
+  (Ký, ghi rõ họ tên)<br><br>
+  <b>Phạm Văn Hiệp</b>
+</p>
