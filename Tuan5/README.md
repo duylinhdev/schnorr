@@ -32,7 +32,7 @@
 |      | Vũ Quang Huy     | Kiểm thử chương trình C#. Hỗ trợ tổng hợp tài liệu tham khảo                                                                | Hoàn thành 100%  |                                    |
 |      | Lê Duy Linh      | Kiểm thử toàn bộ chương trình Java. Viết phần giới thiệu ngôn ngữ Java trong báo cáo. Tổng hợp, chỉnh sửa nội dung báo cáo  | Hoàn thành 100%  |                                    |
 |      | Bùi Huy Thái     | Kiểm thử chương trình Java. Hỗ trợ chỉnh sửa nội dung báo cáo                                                               | Hoàn thành 100%  |                                    |
-| 5    | Cả nhóm          | Tổng hợp, chỉnh sửa báo cáo hoàn chỉnh.                                                                                     |                  | Hoàn thành 100%                    |
+| 5    | Cả nhóm          | Tổng hợp, chỉnh sửa báo cáo hoàn chỉnh.                                                                                     | Hoàn thành 100%  |                                    |
 
 <p align="right">
   Ngày ... tháng ... năm 2026<br>
