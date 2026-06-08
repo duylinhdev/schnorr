@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("schnorr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3b9ab9f089c2a197dd69761127f2b9619f00d9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99e15b774f1a199054b56685904993d50df37c83")]
 [assembly: System.Reflection.AssemblyProductAttribute("schnorr")]
 [assembly: System.Reflection.AssemblyTitleAttribute("schnorr")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
